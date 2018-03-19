@@ -1,0 +1,25 @@
+{
+    "type": "basic",
+    "from": {
+        "key_code": "application",
+        "modifiers": {
+            "optional": [
+                "caps_lock"
+            ]
+        }
+    },
+    "parameters": {
+        "basic.to_if_alone_timeout_milliseconds": 250,
+        "basic.to_if_held_down_threshold_milliseconds": 250
+    },
+    "to_if_alone": [
+        {
+            "key_code": "application"
+        }
+    ],
+    "to_if_held_down": [
+        {
+            "shell_command": "open -a '/Applications/iTerm.app/Contents/MacOS/iTerm2 -n'"
+        }
+    ]
+}
