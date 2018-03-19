@@ -2,7 +2,7 @@
     "consumer_key_code": "iTerm2,
     "type": "basic",
     "from": {
-        "key_code": "iTerm2",
+        "key_code": "application",
         "modifiers": {
             "optional": [
                 "caps_lock"
